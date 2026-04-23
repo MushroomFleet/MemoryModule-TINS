@@ -67,7 +67,7 @@ Every `recall` query runs five channels in parallel and fuses them with Reciproc
 
 Ties are broken by recency. Temporal questions bypass the LLM and are answered with deterministic date arithmetic injected into the synthesis prompt as precomputed facts.
 
-For the full pipeline, schemas, and rationale, read [`CF-AgentMemory-grounding.md`](./CF-AgentMemory-grounding.md).
+For the full pipeline, schemas, and rationale, read [`./MemoryModule-grounding.md`](./MemoryModule-grounding.md).
 
 ---
 
