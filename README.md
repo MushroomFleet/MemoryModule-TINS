@@ -13,7 +13,7 @@ This repository does not ship source code. It ships two TINS-compliant Markdown 
 | File | Purpose |
 |------|---------|
 | [`MemoryModule-dev-TINS.md`](./MemoryModule-dev-TINS.md) | The implementation specification. Standalone Node.js + SQLite + Vite/React. Runs locally, deploys anywhere Node runs. Whitelabel-friendly. |
-| [`CF-AgentMemory-grounding.md`](./CF-AgentMemory-grounding.md) | The architectural grounding document. Describes *why* each pipeline decision was made. Read it before editing pipeline code. |
+| [`AgentMemory-grounding.md`](./AgentMemory-grounding.md) | The architectural grounding document. Describes *why* each pipeline decision was made. Read it before editing pipeline code. |
 | [`MemoryModule-TINS.md`](./MemoryModule-TINS.md) | The original Cloudflare-targeted specification (Workers, Durable Objects, Vectorize, Workers AI, Firebase Auth). Kept as a reference for operators who prefer that stack. |
 
 Pick **one** of the TINS files depending on where you want to run the system, then generate an implementation from it.
